@@ -1,0 +1,6 @@
+/home/sjke/drogon_controllers/build/CMakeFiles/drogon_controllers.dir
+/home/sjke/drogon_controllers/build/CMakeFiles/edit_cache.dir
+/home/sjke/drogon_controllers/build/CMakeFiles/rebuild_cache.dir
+/home/sjke/drogon_controllers/build/test/CMakeFiles/drogon_controllers_test.dir
+/home/sjke/drogon_controllers/build/test/CMakeFiles/edit_cache.dir
+/home/sjke/drogon_controllers/build/test/CMakeFiles/rebuild_cache.dir
