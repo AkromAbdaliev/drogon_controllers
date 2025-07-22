@@ -74,14 +74,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "drogon_controllers::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-drogon_controllers-Debug-390eef8b9a83328f87de.json",
+					"jsonFile" : "target-drogon_controllers-Debug-04e59d5045a551f3876d.json",
 					"name" : "drogon_controllers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "drogon_controllers_test::@36f028580bb02cc8272a",
-					"jsonFile" : "target-drogon_controllers_test-Debug-28aa8fecf58988eb11a3.json",
+					"jsonFile" : "target-drogon_controllers_test-Debug-cccaf7680426bb6b2055.json",
 					"name" : "drogon_controllers_test",
 					"projectIndex" : 1
 				}

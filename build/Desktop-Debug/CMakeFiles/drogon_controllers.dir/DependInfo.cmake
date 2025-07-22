@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/sjke/drogon_controllers/controllers/TestSimpleController.cc" "CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o" "gcc" "CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o.d"
   "/home/sjke/drogon_controllers/main.cc" "CMakeFiles/drogon_controllers.dir/main.cc.o" "gcc" "CMakeFiles/drogon_controllers.dir/main.cc.o.d"
+  "/home/sjke/drogon_controllers/test/test_main.cc" "CMakeFiles/drogon_controllers.dir/test/test_main.cc.o" "gcc" "CMakeFiles/drogon_controllers.dir/test/test_main.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

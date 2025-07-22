@@ -19,8 +19,8 @@ endif ()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-file(GLOB_RECURSE SOURCES  "controllers/*.cc")
-file(GLOB_RECURSE HEADERS  "controllers/*.h")
+file(GLOB_RECURSE SOURCES "*.cc")
+file(GLOB_RECURSE HEADERS "*.h")
 
 add_executable(${PROJECT_NAME} main.cc ${SOURCES} ${HEADERS})
 
