@@ -19,8 +19,8 @@ endif ()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-file(GLOB_RECURSE SOURCES "*.cc")
-file(GLOB_RECURSE HEADERS "*.h")
+file(GLOB_RECURSE SOURCES "controllers/*.cc")
+file(GLOB_RECURSE HEADERS "controllers/*.h")
 
 add_executable(${PROJECT_NAME} main.cc ${SOURCES} ${HEADERS})
 
@@ -62,7 +62,9 @@ drogon_create_views(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/views
 
 target_include_directories(${PROJECT_NAME}
                            PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}
-                                   ${CMAKE_CURRENT_SOURCE_DIR}/models)
+                                   ${CMAKE_CURRENT_SOURCE_DIR}/models
+                                    ${CMAKE_CURRENT_SOURCE_DIR}/controllers
+                               )
 target_sources(${PROJECT_NAME}
                PRIVATE
                ${SRC_DIR}

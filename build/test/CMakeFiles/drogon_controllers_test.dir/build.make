@@ -73,15 +73,15 @@ test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.o: test/CMakeFiles/drog
 test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.o: /home/sjke/drogon_controllers/test/test_main.cc
 test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.o: test/CMakeFiles/drogon_controllers_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sjke/drogon_controllers/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.o"
-	cd /home/sjke/drogon_controllers/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.o -MF CMakeFiles/drogon_controllers_test.dir/test_main.cc.o.d -o CMakeFiles/drogon_controllers_test.dir/test_main.cc.o -c /home/sjke/drogon_controllers/test/test_main.cc
+	cd /home/sjke/drogon_controllers/build/test && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.o -MF CMakeFiles/drogon_controllers_test.dir/test_main.cc.o.d -o CMakeFiles/drogon_controllers_test.dir/test_main.cc.o -c /home/sjke/drogon_controllers/test/test_main.cc
 
 test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/drogon_controllers_test.dir/test_main.cc.i"
-	cd /home/sjke/drogon_controllers/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sjke/drogon_controllers/test/test_main.cc > CMakeFiles/drogon_controllers_test.dir/test_main.cc.i
+	cd /home/sjke/drogon_controllers/build/test && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sjke/drogon_controllers/test/test_main.cc > CMakeFiles/drogon_controllers_test.dir/test_main.cc.i
 
 test/CMakeFiles/drogon_controllers_test.dir/test_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drogon_controllers_test.dir/test_main.cc.s"
-	cd /home/sjke/drogon_controllers/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sjke/drogon_controllers/test/test_main.cc -o CMakeFiles/drogon_controllers_test.dir/test_main.cc.s
+	cd /home/sjke/drogon_controllers/build/test && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sjke/drogon_controllers/test/test_main.cc -o CMakeFiles/drogon_controllers_test.dir/test_main.cc.s
 
 # Object files for target drogon_controllers_test
 drogon_controllers_test_OBJECTS = \

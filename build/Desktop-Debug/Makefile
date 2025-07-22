@@ -142,30 +142,6 @@ drogon_controllers_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/drogon_controllers_test.dir/build.make test/CMakeFiles/drogon_controllers_test.dir/build
 .PHONY : drogon_controllers_test/fast
 
-controllers/TestSimpleController.o: controllers/TestSimpleController.cc.o
-.PHONY : controllers/TestSimpleController.o
-
-# target to build an object file
-controllers/TestSimpleController.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o
-.PHONY : controllers/TestSimpleController.cc.o
-
-controllers/TestSimpleController.i: controllers/TestSimpleController.cc.i
-.PHONY : controllers/TestSimpleController.i
-
-# target to preprocess a source file
-controllers/TestSimpleController.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.i
-.PHONY : controllers/TestSimpleController.cc.i
-
-controllers/TestSimpleController.s: controllers/TestSimpleController.cc.s
-.PHONY : controllers/TestSimpleController.s
-
-# target to generate assembly for a file
-controllers/TestSimpleController.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.s
-.PHONY : controllers/TestSimpleController.cc.s
-
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -190,30 +166,6 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/main.cc.s
 .PHONY : main.cc.s
 
-test/test_main.o: test/test_main.cc.o
-.PHONY : test/test_main.o
-
-# target to build an object file
-test/test_main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/test/test_main.cc.o
-.PHONY : test/test_main.cc.o
-
-test/test_main.i: test/test_main.cc.i
-.PHONY : test/test_main.i
-
-# target to preprocess a source file
-test/test_main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/test/test_main.cc.i
-.PHONY : test/test_main.cc.i
-
-test/test_main.s: test/test_main.cc.s
-.PHONY : test/test_main.s
-
-# target to generate assembly for a file
-test/test_main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/test/test_main.cc.s
-.PHONY : test/test_main.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,15 +176,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... drogon_controllers"
 	@echo "... drogon_controllers_test"
-	@echo "... controllers/TestSimpleController.o"
-	@echo "... controllers/TestSimpleController.i"
-	@echo "... controllers/TestSimpleController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test/test_main.o"
-	@echo "... test/test_main.i"
-	@echo "... test/test_main.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/x86_64-linux-gnu-g++-13
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sjke/drogon_controllers -I/home/sjke/drogon_controllers/models -isystem /usr/include/jsoncpp
+CXX_INCLUDES = -I/home/sjke/drogon_controllers -I/home/sjke/drogon_controllers/models -I/home/sjke/drogon_controllers/controllers -isystem /usr/include/jsoncpp
 
 CXX_FLAGS = -DQT_QML_DEBUG -g -std=c++17 -fdiagnostics-color=always
 
