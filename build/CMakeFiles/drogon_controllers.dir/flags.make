@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/sjke/drogon_controllers -I/home/sjke/drogon_controllers/models -I/home/sjke/drogon_controllers/controllers -isystem /usr/include/jsoncpp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++17
+CXX_FLAGS = -std=c++17
 

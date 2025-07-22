@@ -7,11 +7,17 @@
       "port": 5432,
       "dbname": "drogon_controllers",
       "user": "postgres",
-      "passwd": "password",
+      "password": "password",
       "is_fast": false,
       "number_of_connections": 1,
       "timeout": -1.0,
       "auto_batch": false
+    }
+  ],
+  "listeners": [
+    {
+      "address": "0.0.0.0",
+      "port": 5555
     }
   ]
 }

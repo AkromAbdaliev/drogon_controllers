@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /usr/include/jsoncpp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=c++17
+CXX_FLAGS = -std=c++17
 
