@@ -342,4 +342,8 @@ CMakeFiles/drogon_controllers.dir/main.cc.o: \
  /usr/local/include/drogon/IntranetIpFilter.h \
  /usr/local/include/drogon/LocalHostFilter.h \
  /usr/local/include/drogon/IOThreadStorage.h \
- /home/sjke/drogon_controllers/controllers/TestSimpleController.h
+ /home/sjke/drogon_controllers/controllers/TestSimpleController.h \
+ /home/sjke/drogon_controllers/controllers/TestHttpController.h \
+ /home/sjke/drogon_controllers/controllers/ChatController.h \
+ /usr/local/include/drogon/WebSocketController.h \
+ /usr/local/include/drogon/WebSocketConnection.h

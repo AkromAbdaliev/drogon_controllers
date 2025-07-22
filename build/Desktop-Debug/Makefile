@@ -142,6 +142,54 @@ drogon_controllers_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/drogon_controllers_test.dir/build.make test/CMakeFiles/drogon_controllers_test.dir/build
 .PHONY : drogon_controllers_test/fast
 
+controllers/ChatController.o: controllers/ChatController.cc.o
+.PHONY : controllers/ChatController.o
+
+# target to build an object file
+controllers/ChatController.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.o
+.PHONY : controllers/ChatController.cc.o
+
+controllers/ChatController.i: controllers/ChatController.cc.i
+.PHONY : controllers/ChatController.i
+
+# target to preprocess a source file
+controllers/ChatController.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.i
+.PHONY : controllers/ChatController.cc.i
+
+controllers/ChatController.s: controllers/ChatController.cc.s
+.PHONY : controllers/ChatController.s
+
+# target to generate assembly for a file
+controllers/ChatController.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.s
+.PHONY : controllers/ChatController.cc.s
+
+controllers/TestHttpController.o: controllers/TestHttpController.cc.o
+.PHONY : controllers/TestHttpController.o
+
+# target to build an object file
+controllers/TestHttpController.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o
+.PHONY : controllers/TestHttpController.cc.o
+
+controllers/TestHttpController.i: controllers/TestHttpController.cc.i
+.PHONY : controllers/TestHttpController.i
+
+# target to preprocess a source file
+controllers/TestHttpController.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.i
+.PHONY : controllers/TestHttpController.cc.i
+
+controllers/TestHttpController.s: controllers/TestHttpController.cc.s
+.PHONY : controllers/TestHttpController.s
+
+# target to generate assembly for a file
+controllers/TestHttpController.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.s
+.PHONY : controllers/TestHttpController.cc.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -176,6 +224,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... drogon_controllers"
 	@echo "... drogon_controllers_test"
+	@echo "... controllers/ChatController.o"
+	@echo "... controllers/ChatController.i"
+	@echo "... controllers/ChatController.s"
+	@echo "... controllers/TestHttpController.o"
+	@echo "... controllers/TestHttpController.i"
+	@echo "... controllers/TestHttpController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/sjke/drogon_controllers/controllers/ChatController.cc" "CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.o" "gcc" "CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.o.d"
+  "/home/sjke/drogon_controllers/controllers/TestHttpController.cc" "CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o" "gcc" "CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o.d"
   "/home/sjke/drogon_controllers/main.cc" "CMakeFiles/drogon_controllers.dir/main.cc.o" "gcc" "CMakeFiles/drogon_controllers.dir/main.cc.o.d"
   )
 
