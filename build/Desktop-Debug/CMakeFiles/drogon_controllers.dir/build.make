@@ -111,10 +111,24 @@ CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.s"
 	/usr/bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sjke/drogon_controllers/controllers/TestHttpController.cc -o CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.s
 
+CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o: CMakeFiles/drogon_controllers.dir/flags.make
+CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o: /home/sjke/drogon_controllers/controllers/TestSimpleController.cc
+CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o: CMakeFiles/drogon_controllers.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o"
+	/usr/bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o -MF CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o.d -o CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o -c /home/sjke/drogon_controllers/controllers/TestSimpleController.cc
+
+CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.i"
+	/usr/bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sjke/drogon_controllers/controllers/TestSimpleController.cc > CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.i
+
+CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.s"
+	/usr/bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sjke/drogon_controllers/controllers/TestSimpleController.cc -o CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.s
+
 CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o: CMakeFiles/drogon_controllers.dir/flags.make
 CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o: /home/sjke/drogon_controllers/controllers/UserController.cc
 CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o: CMakeFiles/drogon_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o"
 	/usr/bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o -MF CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o.d -o CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o -c /home/sjke/drogon_controllers/controllers/UserController.cc
 
 CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.s: cmake_force
 CMakeFiles/drogon_controllers.dir/models/Users.cc.o: CMakeFiles/drogon_controllers.dir/flags.make
 CMakeFiles/drogon_controllers.dir/models/Users.cc.o: /home/sjke/drogon_controllers/models/Users.cc
 CMakeFiles/drogon_controllers.dir/models/Users.cc.o: CMakeFiles/drogon_controllers.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/drogon_controllers.dir/models/Users.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/drogon_controllers.dir/models/Users.cc.o"
 	/usr/bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drogon_controllers.dir/models/Users.cc.o -MF CMakeFiles/drogon_controllers.dir/models/Users.cc.o.d -o CMakeFiles/drogon_controllers.dir/models/Users.cc.o -c /home/sjke/drogon_controllers/models/Users.cc
 
 CMakeFiles/drogon_controllers.dir/models/Users.cc.i: cmake_force
@@ -144,6 +158,7 @@ drogon_controllers_OBJECTS = \
 "CMakeFiles/drogon_controllers.dir/main.cc.o" \
 "CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.o" \
 "CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o" \
+"CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o" \
 "CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o" \
 "CMakeFiles/drogon_controllers.dir/models/Users.cc.o"
 
@@ -153,6 +168,7 @@ drogon_controllers_EXTERNAL_OBJECTS =
 drogon_controllers: CMakeFiles/drogon_controllers.dir/main.cc.o
 drogon_controllers: CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.o
 drogon_controllers: CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o
+drogon_controllers: CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o
 drogon_controllers: CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o
 drogon_controllers: CMakeFiles/drogon_controllers.dir/models/Users.cc.o
 drogon_controllers: CMakeFiles/drogon_controllers.dir/build.make
@@ -165,7 +181,7 @@ drogon_controllers: /usr/lib/x86_64-linux-gnu/libuuid.so
 drogon_controllers: /usr/lib/x86_64-linux-gnu/libpq.so
 drogon_controllers: /usr/lib/x86_64-linux-gnu/libz.so
 drogon_controllers: CMakeFiles/drogon_controllers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable drogon_controllers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sjke/drogon_controllers/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable drogon_controllers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drogon_controllers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -190,6 +190,30 @@ controllers/TestHttpController.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.s
 .PHONY : controllers/TestHttpController.cc.s
 
+controllers/TestSimpleController.o: controllers/TestSimpleController.cc.o
+.PHONY : controllers/TestSimpleController.o
+
+# target to build an object file
+controllers/TestSimpleController.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o
+.PHONY : controllers/TestSimpleController.cc.o
+
+controllers/TestSimpleController.i: controllers/TestSimpleController.cc.i
+.PHONY : controllers/TestSimpleController.i
+
+# target to preprocess a source file
+controllers/TestSimpleController.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.i
+.PHONY : controllers/TestSimpleController.cc.i
+
+controllers/TestSimpleController.s: controllers/TestSimpleController.cc.s
+.PHONY : controllers/TestSimpleController.s
+
+# target to generate assembly for a file
+controllers/TestSimpleController.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.s
+.PHONY : controllers/TestSimpleController.cc.s
+
 controllers/UserController.o: controllers/UserController.cc.o
 .PHONY : controllers/UserController.o
 
@@ -278,6 +302,9 @@ help:
 	@echo "... controllers/TestHttpController.o"
 	@echo "... controllers/TestHttpController.i"
 	@echo "... controllers/TestHttpController.s"
+	@echo "... controllers/TestSimpleController.o"
+	@echo "... controllers/TestSimpleController.i"
+	@echo "... controllers/TestSimpleController.s"
 	@echo "... controllers/UserController.o"
 	@echo "... controllers/UserController.i"
 	@echo "... controllers/UserController.s"

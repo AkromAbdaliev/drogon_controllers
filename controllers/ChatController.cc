@@ -9,12 +9,11 @@ void ChatController::handleNewMessage(const WebSocketConnectionPtr& wsConnPtr, s
 void ChatController::handleNewConnection(const HttpRequestPtr &req, const WebSocketConnectionPtr& wsConnPtr)
 {
     // write your application logic here
-    LOG_INFO << "New WebSocket connection established";
     wsConnPtr->send("Welcome to the chat server!");
 }
 
 void ChatController::handleConnectionClosed(const WebSocketConnectionPtr& wsConnPtr)
 {
     // write your application logic here
-    LOG_INFO << "WebSocket connection closed";
+    LOG_INFO << "Connection closed";
 }

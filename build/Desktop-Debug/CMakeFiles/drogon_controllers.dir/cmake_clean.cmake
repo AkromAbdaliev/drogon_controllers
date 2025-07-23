@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/drogon_controllers.dir/controllers/ChatController.cc.o.d"
   "CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o"
   "CMakeFiles/drogon_controllers.dir/controllers/TestHttpController.cc.o.d"
+  "CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o"
+  "CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.o.d"
   "CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o"
   "CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o.d"
   "CMakeFiles/drogon_controllers.dir/main.cc.o"

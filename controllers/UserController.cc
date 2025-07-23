@@ -73,6 +73,48 @@ void UserController::createUser(const HttpRequestPtr& req, std::function<void (c
     });
 }
 
+// void UserController::updateUser(const HttpRequestPtr &req,
+//                                 std::function<void(const HttpResponsePtr &)> &&callback,
+//                                 int userId)
+// {
+//     auto json = req->getJsonObject();
+//     if (!json || !json->isMember("name") || !json->isMember("email"))
+//     {
+//         auto resp = HttpResponse::newHttpJsonResponse(
+//             Json::Value{{"error", "'name' and 'email' are required to update!"}});
+//         resp->setStatusCode(k400BadRequest);
+//         callback(resp);
+//         return;
+//     }
+
+//     auto dbClient = app().getDbClient();
+//     Mapper<Users> mp(dbClient);
+
+//     Users user;
+//     user.setId(userId);
+//     user.setName((*json)["name"].asString());
+//     user.setEmail((*json)["email"].asString());
+
+//     if (json->isMember("is_active"))
+//     {
+//         user.setIsActive((*json)["is_active"].asBool());
+//     }
+
+//     mp.update(
+//         user,
+//         [callback](const Users &updatedUser) {
+//             auto resp = HttpResponse::newHttpJsonResponse(updatedUser.toJson());
+//             callback(resp);
+//         },
+//         [callback](const DrogonDbException &e) {
+//             Json::Value error;
+//             error["error"] = e.base().what();
+//             auto resp = HttpResponse::newHttpJsonResponse(error);
+//             resp->setStatusCode(k500InternalServerError);
+//             callback(resp);
+//     });
+// }
+
 
 
 

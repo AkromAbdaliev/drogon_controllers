@@ -15,6 +15,7 @@ class UserController : public drogon::HttpController<UserController>
 
     ADD_METHOD_TO(UserController::getUsers, "/users", Get);
     ADD_METHOD_TO(UserController::createUser, "/users", Post);
+    // ADD_METHOD_TO(UserController::updateUser, "/users", Put);
     METHOD_LIST_END
     // your declaration of processing function maybe like this:
     // void get(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback, int p1, std::string p2);
@@ -22,4 +23,5 @@ class UserController : public drogon::HttpController<UserController>
 
     void getUsers(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback);
     void createUser(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback);
+    // void updateUser(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback, int  userId);
 };

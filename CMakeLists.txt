@@ -21,7 +21,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 file(GLOB_RECURSE SOURCES "controllers/*.cc")
 file(GLOB_RECURSE HEADERS "controllers/*.h")
-
+file(GLOB_RECURSE MODEL_HEADERS "models/*.h")
 add_executable(${PROJECT_NAME} main.cc ${SOURCES} ${HEADERS})
 
 
@@ -71,7 +71,8 @@ target_sources(${PROJECT_NAME}
                ${CTL_SRC}
                ${FILTER_SRC}
                ${PLUGIN_SRC}
-               ${MODEL_SRC})
+               ${MODEL_SRC}
+               ${MODEL_HEADERS})
 # ##############################################################################
 # uncomment the following line for dynamically loading views 
 # set_property(TARGET ${PROJECT_NAME} PROPERTY ENABLE_EXPORTS ON)
