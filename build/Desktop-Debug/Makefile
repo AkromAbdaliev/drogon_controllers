@@ -214,30 +214,6 @@ controllers/TestSimpleController.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/TestSimpleController.cc.s
 .PHONY : controllers/TestSimpleController.cc.s
 
-controllers/UserController.o: controllers/UserController.cc.o
-.PHONY : controllers/UserController.o
-
-# target to build an object file
-controllers/UserController.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.o
-.PHONY : controllers/UserController.cc.o
-
-controllers/UserController.i: controllers/UserController.cc.i
-.PHONY : controllers/UserController.i
-
-# target to preprocess a source file
-controllers/UserController.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.i
-.PHONY : controllers/UserController.cc.i
-
-controllers/UserController.s: controllers/UserController.cc.s
-.PHONY : controllers/UserController.s
-
-# target to generate assembly for a file
-controllers/UserController.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/controllers/UserController.cc.s
-.PHONY : controllers/UserController.cc.s
-
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -262,30 +238,6 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/main.cc.s
 .PHONY : main.cc.s
 
-models/Users.o: models/Users.cc.o
-.PHONY : models/Users.o
-
-# target to build an object file
-models/Users.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/models/Users.cc.o
-.PHONY : models/Users.cc.o
-
-models/Users.i: models/Users.cc.i
-.PHONY : models/Users.i
-
-# target to preprocess a source file
-models/Users.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/models/Users.cc.i
-.PHONY : models/Users.cc.i
-
-models/Users.s: models/Users.cc.s
-.PHONY : models/Users.s
-
-# target to generate assembly for a file
-models/Users.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/drogon_controllers.dir/build.make CMakeFiles/drogon_controllers.dir/models/Users.cc.s
-.PHONY : models/Users.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -305,15 +257,9 @@ help:
 	@echo "... controllers/TestSimpleController.o"
 	@echo "... controllers/TestSimpleController.i"
 	@echo "... controllers/TestSimpleController.s"
-	@echo "... controllers/UserController.o"
-	@echo "... controllers/UserController.i"
-	@echo "... controllers/UserController.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... models/Users.o"
-	@echo "... models/Users.i"
-	@echo "... models/Users.s"
 .PHONY : help
 
 

@@ -334,5 +334,4 @@ CMakeFiles/drogon_controllers.dir/main.cc.o: \
  /home/sjke/drogon_controllers/controllers/TestHttpController.h \
  /home/sjke/drogon_controllers/controllers/ChatController.h \
  /usr/local/include/drogon/WebSocketController.h \
- /usr/local/include/drogon/WebSocketConnection.h \
- /home/sjke/drogon_controllers/controllers/UserController.h
+ /usr/local/include/drogon/WebSocketConnection.h
