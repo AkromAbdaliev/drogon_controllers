@@ -27,7 +27,53 @@ void UserController::getUsers(const HttpRequestPtr& req, std::function<void (con
             auto resp = HttpResponse::newHttpJsonResponse(error);
             resp->setStatusCode(k500InternalServerError);
             callback(resp);
-        }
-        );
-
+        });
 }
+
+void UserController::createUser(const HttpRequestPtr& req, std::function<void (const HttpResponsePtr &)> &&callback)
+{
+    auto json = req->getJsonObject();
+    if (!json)
+    {
+        auto resp = HttpResponse::newHttpJsonResponse(Json::Value{
+            {"error", "Invalid JSON input"}
+        });
+        resp->setStatusCode(k400BadRequest);
+        callback(resp);
+        return;
+    }
+
+    auto dbClient = app().getDbClient();
+    Mapper<Users> mp(dbClient);
+    Users newUser;
+    if (json->isMember("name"))
+    {
+        newUser.setName((*json)["name"].asString());
+    }
+    if (json->isMember("email"))
+    {
+        newUser.setEmail((*json)["email"].asString());
+    }
+    if (json->isMember("is_active"))
+    {
+        newUser.setIsActive((*json)["is_active"].asBool());
+    }
+
+    mp.insert(newUser,
+    [callback](const Users &user) {
+      auto resp = HttpResponse::newHttpJsonResponse(user.toJson());
+      callback(resp);
+    },
+    [callback](const DrogonDbException &e) {
+      Json::Value error;
+      error["error"] = e.base().what();
+      auto resp = HttpResponse::newHttpJsonResponse(error);
+      resp->setStatusCode(k500InternalServerError);
+      callback(resp);
+    });
+}
+
+
+
+
+
